@@ -1,0 +1,52 @@
+{
+  "name": "scholarhub",
+  "version": "1.0.0",
+  "description": "ScholarHub - A secure web application for student course and assignment management",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio",
+    "db:reset": "prisma migrate reset",
+    "setup": "npm install && npx prisma generate && npx prisma migrate dev"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.1.0",
+    "@prisma/client": "^7.1.0",
+    "bcryptjs": "^3.0.3",
+    "iron-session": "^8.0.4",
+    "next": "16.0.7",
+    "pg": "^8.16.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20",
+    "@types/pg": "^8.15.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.7",
+    "prisma": "^7.1.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "keywords": [
+    "security",
+    "web-development",
+    "nextjs",
+    "prisma",
+    "postgresql",
+    "authentication",
+    "authorization"
+  ],
+  "author": "Your Name",
+  "license": "UNLICENSED"
+}
