@@ -1,7 +1,7 @@
 # ScholarHub
 
 A secure web application for managing student courses, assignments, and submissions with enterprise-level security features.
-
+git
 ## 📋 Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
